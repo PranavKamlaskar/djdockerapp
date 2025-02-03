@@ -29,3 +29,8 @@ git clone https://github.com/<username>/django-todo-app
 
 The code used in this project and in the linked tutorial are licensed under the [Apache License, Version 2.0](LICENSE).
 
+
+
+## after cloning into repository create a .env file containing env variables 
+
+
