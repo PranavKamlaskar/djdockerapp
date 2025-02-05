@@ -1,5 +1,13 @@
 #!/bin/bash
 
+cat <<EOF > ".env"
+DATABASE_NAME=django_todo2
+DATABASE_USER=lulu
+DATABASE_PASSWORD=lulu
+DATABASE_HOST=my-postgres
+DATABASE_PORT=5432
+EOF
+
 # Update package index
 echo "Updating package index..."
 sudo apt-get update
